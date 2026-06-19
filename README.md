@@ -26,7 +26,7 @@ A fully operational, database-driven Windows Forms desktop application engineere
 ### Main Entrance & Authentication
 | Main Welcome Vault | Secure Access Login | New Account Registration |
 | :---: | :---: | :---: |
-| <img src="Screenshots/Main interface.jpg" width="220" alt="Main Vault"> | <img src="Screenshots/Login interface.png" width="220" alt="Login"> | <img src="Screenshots/SignUp interface.png" width="220" alt="Sign Up"> |
+| <img src="Screenshots/Main interface.png" width="220" alt="Main Vault"> | <img src="Screenshots/Login interface.png" width="220" alt="Login"> | <img src="Screenshots/SignUp interface.png" width="220" alt="Sign Up"> |
 
 ### Member Dashboard & Ledger Operations
 | User Info & Balance Hub | Ledger Deposit & Withdrawal | Profile Customization Panel |
