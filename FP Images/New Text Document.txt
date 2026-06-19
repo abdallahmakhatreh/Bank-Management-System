@@ -1,0 +1,14 @@
+DataTable dataTable = new DataTable();
+
+            using (OleDbConnection con = new OleDbConnection(myConn))
+            {
+                using(OleDbCommand com = new OleDbCommand(selectQuery, con))
+                {
+                    using(OleDbDataAdapter adapter = new OleDbDataAdapter(com))
+                    {
+                        adapter.Fill(dataTable);
+                    }
+                }
+            }
+
+            return dataTable;
