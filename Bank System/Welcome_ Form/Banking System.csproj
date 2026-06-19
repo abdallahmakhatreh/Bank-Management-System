@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F15915F8-EF19-47F7-8881-413520DAB9BB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Welcome__Form</RootNamespace>
+    <AssemblyName>Welcome_ Form</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmmanBranches_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AmmanBranches_Form.Designer.cs">
+      <DependentUpon>AmmanBranches_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AqabaBranches_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AqabaBranches_Form.Designer.cs">
+      <DependentUpon>AqabaBranches_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Balance_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balance_Form.Designer.cs">
+      <DependentUpon>Balance_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BankBranches_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankBranches_Form.Designer.cs">
+      <DependentUpon>BankBranches_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bankingsys.cs" />
+    <Compile Include="dbBankSystemDataSet.cs">
+      <DependentUpon>dbBankSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbBankSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBankSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EditUser_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditUser_Form.Designer.cs">
+      <DependentUpon>EditUser_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IrbidBranches_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IrbidBranches_Form.Designer.cs">
+      <DependentUpon>IrbidBranches_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp_Form.Designer.cs">
+      <DependentUpon>SignUp_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Form.Designer.cs">
+      <DependentUpon>User_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Form.Designer.cs">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Form.Designer.cs">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Welcome_Form.cs" />
+    <EmbeddedResource Include="AmmanBranches_Form.resx">
+      <DependentUpon>AmmanBranches_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AqabaBranches_Form.resx">
+      <DependentUpon>AqabaBranches_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Balance_Form.resx">
+      <DependentUpon>Balance_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BankBranches_Form.resx">
+      <DependentUpon>BankBranches_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditUser_Form.resx">
+      <DependentUpon>EditUser_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IrbidBranches_Form.resx">
+      <DependentUpon>IrbidBranches_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp_Form.resx">
+      <DependentUpon>SignUp_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Form.resx">
+      <DependentUpon>User_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Form.resx">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Form.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="dbBankSystemDataSet.xsc">
+      <DependentUpon>dbBankSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbBankSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBankSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbBankSystemDataSet.xss">
+      <DependentUpon>dbBankSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
