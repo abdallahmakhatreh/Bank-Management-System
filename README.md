@@ -34,8 +34,8 @@ A fully operational, database-driven Windows Forms desktop application engineere
 | <img src="Screenshots/User Info interface.png" width="220" alt="Dashboard"> | <img src="Screenshots/Balance interface.png" width="220" alt="Balance"> | <img src="Screenshots/Edit User interface.png" width="220" alt="Edit Profile"> |
 
 ### Regional Multi-Branch Hubs
-| Regional Directory Selector | Amman Branches Network | Irbid Branches Network |
-| :---: | :---: | :---: |
+| Regional Directory Selector | Amman Branches Network | Irbid Branches Network | Aqaba Branches Network |
+| :---: | :---: | :---: | :---: |
 | <img src="Screenshots/Bank Branches interface.png" width="220" alt="Branches Menu"> | <img src="Screenshots/Amman Branches interface.png" width="220" alt="Amman Hub"> | <img src="Screenshots/Irbid Branches interface.png" width="220" alt="Irbid Hub"> | <img src="Screenshots/Aqaba Branches interface.png" width="220" alt="Aqaba Hub">
 
 *(Note: The full Aqaba branches index layout is also preserved inside the asset directory as `Screenshots/Aqaba Branches interface.png`).*
